@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noman Ali - AutoCAD Services</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #000;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #000000, #b30000);
+    color: white;
+    padding: 25px;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+/* AUTO CAD text */
+.autocad-text {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 35px 25px;
+}
+
+h2 {
+    color: #b30000;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Services list */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+/* WhatsApp Button in Services */
+.whatsapp-service-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.whatsapp-service-btn:hover {
+    background: #128C7E;
+}
+
+/* Contact box */
+.contact-box {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Form */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #b30000;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #000000;
+}
+
+/* Floating WhatsApp Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 14px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-btn:hover {
+    background: #128C7E;
+}
+
+/* Footer */
+footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Noman Ali</h1>
+    <p>Professional AutoCAD Drafting & Design Solutions</p>
+    <div class="autocad-text">AUTO CAD</div>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am Noman Ali, a professional AutoCAD expert providing high-quality drafting,
+        2D & 3D modeling, floor plans, and custom design services.
+        Customers can directly contact me via WhatsApp or Email for fast service.
+    </p>
+</section>
+
+<section>
+    <h2>Services</h2>
+    <ul>
+        <li>AutoCAD Drafting</li>
+        <li>2D & 3D Modeling</li>
+        <li>Floor Plans</li>
+        <li>Professional Design Consultation</li>
+    </ul>
+    <p><b>AutoCAD ka low price ma kaam karwanay ke liye WhatsApp ya Email par rabta karein.</b></p>
+    <!-- Added WhatsApp Button Here for Easy Contact -->
+    <a href="https://wa.me/923034501359?text=Hello%20Noman%2C%20I%20need%20AutoCAD%20services" target="_blank" class="whatsapp-service-btn">
+        Contact via WhatsApp
+    </a>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+        <p><b>Name:</b> Noman Ali</p>
+        <p><b>Email:</b> nomanali03034501359@gmail.com</p>
+        <p><b>Phone:</b> 03034501359</p>
+
+        <!-- Email Form -->
+        <form action="mailto:nomanali03034501359@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Email</button>
+        </form>
+    </div>
+</section>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/923034501359?text=Hello%20Noman%2C%20I%20need%20AutoCAD%20services" target="_blank" class="whatsapp-btn">
+    WhatsApp
+</a>
+
+<footer>
+    <p>© 2025 Noman Ali | AUTO CAD Services</p>
+    <p>Website Designed by <b>Zain Amir</b></p>
+</footer>
+
+</body>
+</html>
